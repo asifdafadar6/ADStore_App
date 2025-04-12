@@ -4,6 +4,7 @@ import { ContextProvider } from "../components/provider/ContextApi";
 
 export default function RootLayout() {
   return (
+    
     <ContextProvider>
       <StatusBar barStyle="dark-content" backgroundColor={"transparent"} />
       <Stack screenOptions={{ headerShown: false }}>
